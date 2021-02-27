@@ -37,7 +37,7 @@ public class Task7Cycles {
         // проверяю массив на наличие констант
         for (int perebor: ints){
             if (perebor == x || perebor == y || perebor == z ){
-                System.out.println("Данное значение имеется в константах");
+                System.out.println("Данное значение " + perebor + " имеется в константах");
                 break;
             }
         }
