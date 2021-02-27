@@ -15,11 +15,11 @@ public class Task7Cycles {
         System.out.println("Введите длину массива");
         int sizeArray;
 
-        // делаю проверку чтобы дляна массива не была меньшей либо равной 0
+        // делаю проверку чтобы длинна массива не была меньшей либо равной 0
         while (true){
              sizeArray = Integer.parseInt(reader.readLine());
             if (sizeArray <=0 ){
-                System.out.println("Длина массива не может быть меньше либо равной 0");
+                System.out.println("Длинна массива не может быть меньше либо равной 0");
             }else {
                 break;
             }
