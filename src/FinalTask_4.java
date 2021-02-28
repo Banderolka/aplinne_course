@@ -4,9 +4,7 @@ import java.io.InputStreamReader;
 
 public class FinalTask_4 {
     public static void main(String[] args) throws IOException {
-        String answer = "Заархивированный вирус";
-
-       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
        System.out.println("Отгадай загадку \nСидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает");
 
