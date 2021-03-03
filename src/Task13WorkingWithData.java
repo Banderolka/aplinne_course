@@ -7,7 +7,7 @@ public class Task13WorkingWithData {
     public static void main(String[] args) {
         String str = "I love java 8 Я люблю java 14 core1";
 
-       Pattern pattern = Pattern.compile("[A-Za-z]{1,}");
+       Pattern pattern = Pattern.compile("[A-Za-z]{1,}\\s");
        Matcher matcher = pattern.matcher(str);
 
 
