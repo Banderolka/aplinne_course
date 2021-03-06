@@ -12,7 +12,7 @@ public class Task10Cycles {
         // делаю проверку чтобы длинна массива не была меньшей либо равной 0
         while (true){
             str = Integer.parseInt(reader.readLine());
-            if (str <=0 ){
+            if (str <= 0 ){
                 System.out.println("Длинна массива не может быть меньше либо равной 0");
             }else {
                 break;
@@ -25,7 +25,7 @@ public class Task10Cycles {
         // делаю проверку чтобы длинна массива не была меньшей либо равной 0
         while (true){
             column = Integer.parseInt(reader.readLine());
-            if (column <=0 ){
+            if (column <= 0 ){
                 System.out.println("Длинна массива не может быть меньше либо равной 0");
             }else {
                 break;
@@ -44,17 +44,12 @@ public class Task10Cycles {
         }
 
         //вывод первой строки матрицы на экран, где каждый элемент умножается на 3
-        for (int i = 0; i < column; i++) {
-            if (i > 0){
-                break;
-            } else {
-                for (int j = 0; j < str; j++) {
-                    System.out.println( matrix[j][i] * 3);
-                }
-            }
-
+        for (int j = 0; j < str; j++) {
+            System.out.println( matrix[j][0] * 3);
         }
-
-
     }
+
 }
+
+
+
